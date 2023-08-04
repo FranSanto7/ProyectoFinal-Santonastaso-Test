@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    font-weight: 700;
+    font-family: fantasy;
+    border-radius: 0 0 10px 10px;
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    margin-top: 30px;
+    padding: 0 150px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 55px;
+    margin: 20px;
+    color: rgb(211, 211, 211);
+}
+
+h2{
+    padding: 0 70px;
+    margin-top: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+h3{
+    padding: 0 70px;
+    margin-top: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+h4{
+    padding: 30px 100px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.equipos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.viñeta{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 0 220px;
+    margin-bottom: 15px;
+}
+
+.pie{
+    margin-top: 100px;
+}
+
+.ig{
+    color: white;
+    font-weight: 700;
+}
+
+.contacto{
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.container-fluid{
+    margin: 0;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
